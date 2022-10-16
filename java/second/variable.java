@@ -1,15 +1,23 @@
 /*
- * int - integer numbers, such 1223 341 90 -50
+ * byte - [ 1 byte ] - -128 to 127
+ *
+ * short - [ 2 bytes ] - -32,768 to 32,767
+ *
+ * int - integer numbers, such 1223 341 90 -50 [ 4 bytes ] - -2,147,000,000 to
+ * (2,147,000,000 -1)
+ *
+ * long - [ 8 bytes ] - -9,000,000,000,000,000,000 to (9,000,000,000,000,000,000
+ * - 1)
  *
  * float - floating numbers such 123.89 56.90 -90.89 ( imp. 90.00 is also
- * floating )
+ * floating ) [ 4 bytes ] same like int but with fractions
  *
- * double - int and float combined.
+ * double - int and float combined. [ 8 bytes ] - 15 decimal numbers
  *
- * boolean - True and False
+ * boolean - True and False [ 1 bit ]
  *
  * character ( char ) - such 'a' 'b' 'C' '1' - we have to use only single quotes
- * ('') for char.
+ * ('') for char. [ 2 bytes ] '☺'
  *
  * string ( String or str ) - sentence "an apple", "a computer" - we have to use
  * only double quotes
